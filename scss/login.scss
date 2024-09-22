@@ -1,0 +1,39 @@
+@import "./reset.css";
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .inner {
+        height: 40vh;
+        margin: 0 auto;
+        
+        h4 {
+            font-size: 2.5em;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: .9em;
+        }
+
+        button {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 1.5em;
+                padding-right: 1em;
+            }
+            span {
+                font-size: 1.5em;
+            }
+        }
+
+        #buttonDiv {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+

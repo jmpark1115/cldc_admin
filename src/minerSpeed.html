@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="shortcut icon" href="/logo.png" />
+        
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>CLDC Admin</title>
+</head>
+<body class="snGenerator">
+    <div class="wrap">
+        <header>
+            <p class="material-symbols-outlined mobVer hamburgerIcon">
+                <span class="open">
+                    menu
+                </span>
+                <span class="close">
+                    close
+                </span>
+            </p>
+            <nav class="deskVer">
+                <ul>
+                    <li><a href="/members.html">Members</a></li>
+                    <li><a href="/Miners.html">Miners</a></li>
+                    <li><a href="/snGenerator.html">S/N Generator</a></li>
+                    <li class="selected">Miner Speed</li>
+                    <li><a href="/withdrawalReq.html">Withdrawal Requests</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="#" method="POST">
+                <input data-value="chgMinerSpeed" type="text" placeholder="변경 Miner Speed" required />
+                <p class="btnWrap">
+                    <button type="button">변경</button>
+                </p>
+            </form>
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+</html>
